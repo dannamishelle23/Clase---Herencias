@@ -68,7 +68,7 @@ class Defensa extends Jugador {
 
 //Definir la subclase Delantero
 class Delantero extends Jugador {
-    //Se heredan los atributos de la clase padre y no se añaden nuevos
+    //Se heredan los atributos de la clase padre. No se añaden atributos nuevos en este caso.
 
     //Metodo constructor
     public Delantero(String nombre, String equipo, int edad) {
