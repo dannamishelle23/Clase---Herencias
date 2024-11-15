@@ -22,6 +22,7 @@ public class Jugador {
 }
 
 //Definir la subclase llamada Portero
+//Se usa extends para indicar que una clase hereda de otra
 class Portero extends Jugador{
 
     //Añadir atributos especificos
@@ -60,7 +61,7 @@ class Defensa extends Jugador {
     /*Metodo mostrarInfo() que sobrescribe el metodo de la superclase para mostrar los atributos adicionales.*/
     @Override     //Redefinir un metodo que ya existe en una superclase
     public void MostrarInfo() {
-        super.MostrarInfo();
+        super.MostrarInfo();       //Tomar el metodo de la superclase Jugador
         System.out.println("Numero de bloqueos: " + numBloqueos);
     }
 }
